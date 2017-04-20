@@ -1,12 +1,12 @@
 #!/usr/local/bin/python
 
-# Ganze Zahlen
+# ganze Zahlen
 
 ganzeZahl = 5
 
 print (ganzeZahl)
 
-#type(ganzeZahl)
+# type(ganzeZahl)
 
 print (type(ganzeZahl))
 
@@ -45,7 +45,7 @@ print (type(liste))
 
 
 
-# MIN/MAX-Funktion einer Liste
+# MIN/MAX-Funktion einer Liste - evtl gibt es hier aber auch schon vorgefertigte Funktionen
 
 bisherGroessteZahl = liste[0]
 bisherKleinsteZahl = liste[0]
@@ -56,7 +56,6 @@ for element in liste:
 	if element < bisherKleinsteZahl:
 		bisherKleinsteZahl = element
 	
-	
+
 print ("Bisher groesste Zahl: "+str(bisherGroessteZahl))
 print ("Bisher kleinste Zahl: "+str(bisherKleinsteZahl))
-		
